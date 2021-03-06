@@ -338,7 +338,6 @@ def create_cfbbls_4blocks_2convs():
     return bls_model
 
 if __name__ == '__main__':
-    # 将print输出的内容，重定向到该文件
     print('start...')
 
     '''preprocessing'''
