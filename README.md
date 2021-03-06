@@ -1,4 +1,4 @@
-# The code of proposed model cfb_bls
+# The code of proposed model(CFBBLS)
 
 ## Propose Model
 
