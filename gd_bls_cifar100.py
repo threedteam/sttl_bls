@@ -1,7 +1,7 @@
 '''
 @author:LYQ
 @time:2020/12/28 下午5:26
-@to do:use cfb-bls model to classify CIFAR-100
+@to do:use gd-bls model to classify CIFAR-100
 @link:
 @link:
 '''
