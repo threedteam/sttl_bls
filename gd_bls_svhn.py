@@ -1,7 +1,7 @@
 '''
 @author:LYQ
 @time:2020/12/28 下午5:26
-@to do:use cfb-bls model to classify svhn
+@to do:use gd-bls model to classify svhn
 @link:train.mat,extra.mat,and test.mat are downloaded from http://ufldl.stanford.edu/housenumbers/
 @link:
 '''
