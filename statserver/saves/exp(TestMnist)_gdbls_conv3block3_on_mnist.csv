@@ -1,0 +1,11 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 01:26:53",758.915,16.865,0.609,1.7032082080841064,0.9932,0.5186
+1,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 01:45:11",690.331,16.837,0.608,1.7019577026367188,0.9912,0.5203
+2,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 02:00:26",572.876,16.849,0.608,1.703307867050171,0.9925,0.52
+3,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 02:15:14",555.695,16.839,0.607,1.705636978149414,0.9932,0.5189
+4,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 02:28:42",504.877,16.829,0.606,1.7060894966125488,0.9927,0.5182
+5,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 02:47:25",706.253,16.816,0.606,1.699810028076172,0.9933,0.5194
+6,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 03:07:28",757.379,16.831,0.607,1.7009494304656982,0.9921,0.5196
+7,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 03:34:05",1009.429,16.824,0.607,1.7028794288635254,0.9933,0.5182
+8,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 03:53:42",740.639,16.833,0.607,1.7019217014312744,0.9928,0.5187
+9,exp(TestMnist)_gdbls_conv3block3_on_mnist,"08/20/2022, 04:07:37",521.775,16.831,0.608,1.702124834060669,0.9926,0.5202

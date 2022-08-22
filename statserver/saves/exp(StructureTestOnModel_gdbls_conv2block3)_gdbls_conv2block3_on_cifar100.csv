@@ -1,0 +1,11 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/29/2022, 02:28:10",634.092,11.323,0.867,0.6611,2.0155
+1,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/29/2022, 06:07:18",883.275,11.324,0.868,0.6566,2.0175
+2,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/29/2022, 09:31:33",881.706,11.304,0.868,0.6677,1.9828
+3,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/29/2022, 13:12:23",721.387,11.272,0.875,0.6515,2.0382
+4,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/29/2022, 17:10:14",598.29,11.288,0.876,0.655,2.012
+5,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/29/2022, 20:45:35",532.608,11.332,0.878,0.6566,2.002
+6,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/30/2022, 00:26:08",609.933,11.295,0.876,0.6684,2.0018
+7,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/30/2022, 04:22:30",756.765,11.295,0.876,0.6685,1.9803
+8,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/30/2022, 08:05:07",610.98,11.314,0.877,0.656,2.0194
+9,exp(StructureTestOnModel_gdbls_conv2block3)_gdbls_conv2block3_on_cifar100,"07/30/2022, 11:27:08",780.853,11.317,0.878,0.6723,1.9699

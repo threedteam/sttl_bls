@@ -1,0 +1,6 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 20:45:46",1048.415,20.162,2.291,2.2928953170776367,0.9163,0.356
+1,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 21:08:25",879.963,19.999,2.269,2.25736927986145,0.9075,0.3762
+2,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 21:19:46",438.733,19.942,2.257,2.2602362632751465,0.8662,0.4618
+3,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 21:38:47",739.211,19.979,2.262,2.2578725814819336,0.9103,0.3666
+4,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 21:56:16",678.42,19.954,2.258,2.261469841003418,0.9008,0.3916

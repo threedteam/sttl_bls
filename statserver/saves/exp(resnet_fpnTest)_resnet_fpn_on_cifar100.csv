@@ -1,0 +1,4 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(resnet_fpnTest)_resnet_fpn_on_cifar100,"08/14/2022, 22:47:53",436.866,15.602,1.15,0.4148,2.9998
+1,exp(resnet_fpnTest)_resnet_fpn_on_cifar100,"08/15/2022, 00:13:44",218.215,15.587,1.153,0.3576,3.803
+2,exp(resnet_fpnTest)_resnet_fpn_on_cifar100,"08/15/2022, 01:15:05",141.321,15.702,1.154,0.3305,7.7289

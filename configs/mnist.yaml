@@ -1,0 +1,15 @@
+cfg:
+  filters: [128, 160, 192]
+  divns: 1
+  overall_dropout: 0.25
+  dropout_rate: [0.1, 0.1, 0.1]
+  init_lr: 0.0005
+  batch_size: 256
+  test_size: 0.05
+  epochs: 200
+dataset_name: "MNIST"
+num_classes: 10
+input_shape: [1, 32, 32]
+mean: [0.3081]
+std: [0.3081]
+log_pth: "logs/cifar10"

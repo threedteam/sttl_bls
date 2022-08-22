@@ -1,0 +1,11 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/23/2022, 21:38:01",1155.992,14.45,9.454,0.9125,0.7352
+1,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/23/2022, 23:33:19",1112.402,14.447,7.508,0.913,0.7289
+2,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 01:42:24",983.035,14.456,6.287,0.9089,0.7381
+3,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 03:51:14",911.574,14.469,7.321,0.9149,0.7299
+4,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 05:37:28",722.419,14.448,7.723,0.8999,0.7712
+5,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 07:31:31",1015.432,14.506,6.183,0.9078,0.7509
+6,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 09:17:17",867.618,14.46,5.644,0.9109,0.7387
+7,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 11:16:44",1070.758,14.47,5.926,0.9114,0.7387
+8,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 13:40:34",1139.816,14.428,6.813,0.9204,0.7078
+9,exp(TestOriginalPooling)_gdbls_on_cifar10,"07/24/2022, 15:48:25",1242.984,14.453,6.624,0.9175,0.7231
