@@ -1,0 +1,15 @@
+cfg:
+  filters: [128, 160, 192]
+  divns: 1
+  overall_dropout: 0.3
+  dropout_rate: [0.1, 0.1, 0.1]
+  init_lr: 0.0005
+  batch_size: 160
+  test_size: 0.05
+  epochs: 200
+dataset_name: "CIFAR10"
+num_classes: 10
+input_shape: [3, 32, 32]
+mean: [0.49139968, 0.48215827, 0.44653124]
+std: [0.24703233, 0.24348505, 0.26158768]
+log_pth: "logs/cifar10"

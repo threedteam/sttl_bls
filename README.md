@@ -1,31 +1,42 @@
-# Proposed Model(GD-BLS)
+# Gradient Descent Board Learning System (GDBLS)
 
-## Introduce
-A Gradient Descent Broad Learning System (GDBLS) is proposed to improve the image classification performance of Broad Learning System (BLS). The proposed model contains three important parts: (1) A feature block (FB) based on squeeze-and-excitation technique is put forward for image feature extraction, and multiple feature blocks are cascaded so the model can learn discriminative features. (2) A so-called top-level dropout layer is added before the output layer of the proposed model to avoid overfitting. (3) Adam algorithm is applied to train the model so that the model can work in a way similar to Convolutional Neural Network (CNN), which is greatly beneficial to classification. 
+Hello, this is the detailed implement for GDBLS, an efficient model structure for deeplearning using board-wise methods. 
 
-## Code for Propose Model
+![Model Structure](docs/fig1.eps-92741_00.png)
+**<center>Model Structure</center>**
 
-SVHN: gd_bls_svhn.py
+![Outcome](docs\fig-3.eps-466_00.png)
+**<center>Outcome</center>**
 
-CIFAR-10: gd_bls.py
+## Implements
+1. model/gdbls_conv3block3.py for 32*32.
+2. model/gdbls_conv3block3_dogcatversion for any resolutions.
+3. resnet_fpn.py 
+   The model was used for comparison with the resnet-based feature pyramid structure to justify the feature blocks we designed.
+4. gdbls_conv3block3_noEB.py
+   The model was used to demonstrate the feasibility and necessity of our feature enhancement strategy.
 
-CIFAR-100: gd_bls_cifar100.py
+## Provided experiments
+1. MNIST (1, 32, 32)
+2. SVHN (3, 32, 32)
+3. CIAFR10 (3, 32, 32)
+4. CIFAR100 (3, 32, 32)
+5. CATORDOG (3, 200, 200)
 
-## Runtime Environment 
-Intel Xeon E5-2678 CPU with 128G memory
+## Steps to perform the experiment
+To carry out experiment on specific dataset, just follow the folling phases:
+1. download dataset from this url:
+   https://drive.google.com/file/d/1Pks8OcOi7IZG_MvBRseX_RMfSABeTd3m/view?usp=sharing
+2. extract files in ./datasets folder
+3. deploy the environment using pip for two sub-projects: GD_BLS and statserver. 
+4. open ./statserver and run run.py using flask.
+5. in main.py, select the dataset and model you need to validate, specifying the name of this experiment and the number of repetitions, let it run.
+6. After the experiment completed, you will see many records in ./statserver/saves/data.csv. In analyse.py, run an analyse with information provided from main.py and you can analyse the detailed experiment information.
 
-an NVIDIA TITAN Xp GPU
+## Something to pay attention to
+1. for each dataset, the configs are written to ./configs/[dataset_name].yaml 
+2. ./logs/[dataset_name]/ saves the confusion matrix of the newest experiment.
 
-python 3.6
+## Original Device Information
+We implemented GDBLS in Python with Keras and Pytorch and performed experiments using an Intel Xeon E5-2678 CPU with 128G memory, and an GPU of NVIDIA GeForce RTX 3080. 
 
-keras 2.2.4
-
-## Public dataset
-
-### SVHN
-
-http://ufldl.stanford.edu/housenumbers/
-
-### CIFAR-10 & CIFAR-100
-
-http://www.cs.toronto.edu/~kriz/cifar.html

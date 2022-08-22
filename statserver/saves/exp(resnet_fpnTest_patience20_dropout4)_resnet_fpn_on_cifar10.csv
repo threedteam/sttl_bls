@@ -1,0 +1,6 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(resnet_fpnTest_patience20_dropout4)_resnet_fpn_on_cifar10,"08/16/2022, 00:44:31",379.701,16.509,0.651,0.5883,2.1629
+1,exp(resnet_fpnTest_patience20_dropout4)_resnet_fpn_on_cifar10,"08/16/2022, 01:38:34",1022.582,16.493,0.656,0.8151,0.9423
+2,exp(resnet_fpnTest_patience20_dropout4)_resnet_fpn_on_cifar10,"08/16/2022, 02:05:14",163.947,16.395,0.648,0.5179,2.5162
+3,exp(resnet_fpnTest_patience20_dropout4)_resnet_fpn_on_cifar10,"08/16/2022, 02:58:52",724.234,16.46,0.652,0.7723,1.0616
+4,exp(resnet_fpnTest_patience20_dropout4)_resnet_fpn_on_cifar10,"08/16/2022, 03:16:25",131.006,16.376,0.648,0.4554,1.8441

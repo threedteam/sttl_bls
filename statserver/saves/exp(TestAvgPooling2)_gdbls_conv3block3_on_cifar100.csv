@@ -1,0 +1,6 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestAvgPooling2)_gdbls_conv3block3_on_cifar100,"08/19/2022, 13:09:17",1132.419,13.98,0.926,0.6702,1.9258
+1,exp(TestAvgPooling2)_gdbls_conv3block3_on_cifar100,"08/19/2022, 14:31:56",713.482,13.99,0.913,0.6536,1.9867
+2,exp(TestAvgPooling2)_gdbls_conv3block3_on_cifar100,"08/19/2022, 16:04:28",923.653,13.995,0.915,0.6706,1.9407
+3,exp(TestAvgPooling2)_gdbls_conv3block3_on_cifar100,"08/19/2022, 17:46:51",1077.325,13.991,0.915,0.6703,1.948
+4,exp(TestAvgPooling2)_gdbls_conv3block3_on_cifar100,"08/19/2022, 19:03:45",755.607,13.993,0.915,0.6674,1.9422

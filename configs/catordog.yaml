@@ -1,0 +1,13 @@
+cfg:
+  filters: [160, 192, 256]
+  divns: 1
+  overall_dropout: 0.4
+  dropout_rate: [0.15,0.15,0.15]
+  init_lr: 0.0001
+  batch_size: 128
+  test_size: 0
+  epochs: 100
+dataset_name: "CATORDOG"
+num_classes: 2
+input_shape: [3, 64, 64]
+log_pth: "logs/catordog"

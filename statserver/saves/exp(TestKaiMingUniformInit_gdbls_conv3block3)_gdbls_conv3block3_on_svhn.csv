@@ -1,0 +1,4 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestKaiMingUniformInit_gdbls_conv3block3)_gdbls_conv3block3_on_svhn,"08/03/2022, 19:12:46",1285.086,19.471,1.266,0.9536,0.6395
+1,exp(TestKaiMingUniformInit_gdbls_conv3block3)_gdbls_conv3block3_on_svhn,"08/03/2022, 20:59:28",1498.281,19.458,1.263,0.9601,0.6193
+2,exp(TestKaiMingUniformInit_gdbls_conv3block3)_gdbls_conv3block3_on_svhn,"08/03/2022, 22:42:48",1792.098,19.479,1.263,0.9622,0.6158

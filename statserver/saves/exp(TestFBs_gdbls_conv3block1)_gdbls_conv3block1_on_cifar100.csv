@@ -1,0 +1,4 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestFBs_gdbls_conv3block1)_gdbls_conv3block1_on_cifar100,"08/02/2022, 22:23:24",377.049,5.985,0.294,0.5903,2.3156
+1,exp(TestFBs_gdbls_conv3block1)_gdbls_conv3block1_on_cifar100,"08/03/2022, 03:10:30",294.643,6.013,0.3,0.5924,2.3086
+2,exp(TestFBs_gdbls_conv3block1)_gdbls_conv3block1_on_cifar100,"08/03/2022, 08:06:24",301.248,6.025,0.308,0.586,2.3224

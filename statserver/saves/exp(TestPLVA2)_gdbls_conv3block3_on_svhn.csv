@@ -1,0 +1,3 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss,last_test_time_consumption
+0,exp(TestPLVA2)_gdbls_conv3block3_on_svhn,"08/19/2022, 21:09:40",1312.581,19.591,1.303,0.9642,0.6093,
+1,exp(TestPLVA2)_gdbls_conv3block3_on_svhn,"08/19/2022, 23:40:25",1254.759,19.606,1.315,0.9655,0.6071,4.651049852371216

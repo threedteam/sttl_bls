@@ -1,0 +1,11 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 00:07:27",2173.286,20.311,7.873,0.9681,0.5912
+1,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 02:20:04",1584.533,20.315,6.977,0.9653,0.6016
+2,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 04:21:02",1442.97,20.324,6.109,0.9633,0.6034
+3,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 06:24:09",1788.058,20.319,5.286,0.9679,0.5935
+4,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 08:18:47",1301.37,20.334,6.42,0.9655,0.6016
+5,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 10:36:11",1886.664,20.287,5.777,0.9659,0.5973
+6,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 12:43:33",1746.799,20.312,5.671,0.9641,0.6016
+7,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 14:38:38",1134.253,20.255,9.702,0.9642,0.6068
+8,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 16:57:50",1541.262,20.28,8.296,0.9657,0.5981
+9,exp(TestAvgPooling)_gdbls_on_svhn,"07/23/2022, 18:52:25",1276.037,20.255,7.451,0.9657,0.599

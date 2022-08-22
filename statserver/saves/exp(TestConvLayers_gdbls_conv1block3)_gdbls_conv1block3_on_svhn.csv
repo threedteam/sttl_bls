@@ -1,0 +1,4 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestConvLayers_gdbls_conv1block3)_gdbls_conv1block3_on_svhn,"08/01/2022, 17:34:06",696.717,12.902,1.118,0.9379,0.7301
+1,exp(TestConvLayers_gdbls_conv1block3)_gdbls_conv1block3_on_svhn,"08/02/2022, 03:28:13",803.594,12.961,1.124,0.9375,0.7249
+2,exp(TestConvLayers_gdbls_conv1block3)_gdbls_conv1block3_on_svhn,"08/02/2022, 13:03:34",670.909,12.902,1.126,0.9351,0.7349

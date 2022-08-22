@@ -1,0 +1,11 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestAvgPooling)_gdbls_on_cifar100,"07/22/2022, 22:57:13",1129.765,14.122,10.209,0.6322,2.0689
+1,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 01:29:55",1142.571,14.106,9.073,0.6472,2.0606
+2,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 03:36:14",1144.132,14.125,7.419,0.6438,2.0406
+3,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 05:30:13",974.41,14.122,6.622,0.6375,2.0728
+4,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 07:37:57",1101.3,14.119,6.938,0.6412,2.0724
+5,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 09:38:30",916.094,14.094,8.269,0.6351,2.081
+6,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 11:50:13",1141.979,14.099,8.96,0.649,2.0383
+7,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 13:59:44",1041.861,14.079,8.871,0.649,2.0407
+8,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 16:07:17",1338.622,14.091,11.71,0.6499,2.0456
+9,exp(TestAvgPooling)_gdbls_on_cifar100,"07/23/2022, 18:11:20",1283.52,14.105,6.838,0.6551,2.0223

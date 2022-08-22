@@ -1,0 +1,6 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestAvgPooling2)_gdbls_conv3block3_on_svhn,"08/19/2022, 13:45:03",1335.968,19.647,1.286,0.9654,0.6008
+1,exp(TestAvgPooling2)_gdbls_conv3block3_on_svhn,"08/19/2022, 15:10:19",1435.122,19.659,1.286,0.9674,0.5916
+2,exp(TestAvgPooling2)_gdbls_conv3block3_on_svhn,"08/19/2022, 16:46:23",1570.331,19.629,1.279,0.9681,0.5949
+3,exp(TestAvgPooling2)_gdbls_conv3block3_on_svhn,"08/19/2022, 18:18:30",1179.94,19.666,1.293,0.9655,0.6001
+4,exp(TestAvgPooling2)_gdbls_conv3block3_on_svhn,"08/19/2022, 19:27:02",863.595,19.627,1.266,0.965,0.6024

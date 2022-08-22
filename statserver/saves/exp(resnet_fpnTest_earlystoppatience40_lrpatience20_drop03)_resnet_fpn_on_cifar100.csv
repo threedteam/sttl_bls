@@ -1,0 +1,6 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(resnet_fpnTest_earlystoppatience40_lrpatience20_drop03)_resnet_fpn_on_cifar100,"08/16/2022, 19:50:46",1174.378,15.658,1.15,0.4749,6.1773
+1,exp(resnet_fpnTest_earlystoppatience40_lrpatience20_drop03)_resnet_fpn_on_cifar100,"08/16/2022, 23:37:48",959.771,15.734,1.151,0.4805,4.1555
+2,exp(resnet_fpnTest_earlystoppatience40_lrpatience20_drop03)_resnet_fpn_on_cifar100,"08/17/2022, 02:37:27",1506.079,15.688,1.153,0.4499,4.3061
+3,exp(resnet_fpnTest_earlystoppatience40_lrpatience20_drop03)_resnet_fpn_on_cifar100,"08/17/2022, 04:40:25",1570.417,15.704,1.152,0.5009,2.5989
+4,exp(resnet_fpnTest_earlystoppatience40_lrpatience20_drop03)_resnet_fpn_on_cifar100,"08/17/2022, 07:29:05",1570.287,15.703,1.154,0.5213,2.4873

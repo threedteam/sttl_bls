@@ -1,0 +1,5 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss
+0,exp(TestDifferentInitSeed3407)_gdbls_conv3block3_on_cifar10,"08/10/2022, 11:40:10",1082.136,14.428,0.491,0.9202,0.7152
+1,exp(TestDifferentInitSeed3407)_gdbls_conv3block3_on_cifar10,"08/10/2022, 13:03:49",850.851,14.421,0.493,0.9146,0.724
+2,exp(TestDifferentInitSeed3407)_gdbls_conv3block3_on_cifar10,"08/10/2022, 14:49:45",1125.216,14.426,0.492,0.9195,0.712
+3,exp(TestDifferentInitSeed3407)_gdbls_conv3block3_on_cifar10,"08/10/2022, 18:15:17",1080.064,14.401,0.491,0.9239,0.709
