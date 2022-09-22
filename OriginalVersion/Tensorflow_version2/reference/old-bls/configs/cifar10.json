@@ -1,0 +1,34 @@
+{
+    "config": {
+        "dataset": {
+            "name": "cifar10",
+            "size": [32,32,3],
+            "data_format": "channels_last"
+        },
+        "parameters": {
+            "init_lr": 0.001,
+            "lr_reduction_factor": 0.75,
+            "filters": [128,192,256],
+            "SE_div": [4,4,4],
+            "overall_dropout_rate":0.5,
+            "kernel_init_seed": "7",
+            "kernel_regular_l2": 1e-4,
+            "adam_beta1": 0.9,
+            "adam_beta2": 0.999
+        },
+        "settings": {
+            "exp_name": "Unnamed_experiment",
+            "checkpoint_pth": "checkpoints",
+            "model_png_pth": "logs/model_vis",
+            "log_pth": "logs/normals",
+            "err_pth": "logs/errs",
+            "repeat_train": 10,
+            "epochs_max": 200,
+            "early_stop_patience": 15,
+            "val_size": 0.05,
+            "batch_size": 200,
+            "use_ppv": "True",
+            "verbose": 2
+        }
+    }
+}
