@@ -15,7 +15,7 @@ Hello, this is an implementation for GDBLS, an efficient model structure for dee
    The model was used for comparison with the resnet-based feature pyramid structure to justify the feature blocks we designed.
 4. gdbls_conv3block3_noEB.py
    The model was used to demonstrate the feasibility and necessity of our feature enhancement strategy.
-
+ 
 ## Provided experiments
 1. MNIST (1, 32, 32)
 2. SVHN (3, 32, 32)
