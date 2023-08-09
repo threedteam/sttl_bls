@@ -1,4 +1,4 @@
-# Gradient Descent Broad Learning System (GDBLS)
+# Self-Training-Transductive-Learning Broad Learning System (STTL-BLS)
 
 Hello, this is an implementation for GDBLS, an efficient model structure for deeplearning using broad-wise methods. 
 
