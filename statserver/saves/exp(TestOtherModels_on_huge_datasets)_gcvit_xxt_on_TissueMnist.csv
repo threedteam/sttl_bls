@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(TestOtherModels_on_huge_datasets)_gcvit_xxt_on_TissueMnist,"07/22/2023, 12:00:50",759.328,19.982,1.451,2.148508310317993,0.6902,1.1263

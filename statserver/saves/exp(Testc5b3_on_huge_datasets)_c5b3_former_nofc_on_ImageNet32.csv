@@ -1,0 +1,4 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_ImageNet32)_c5b3_former_nofc_on_ImageNet32,"06/29/2023, 06:15:43",98807.597,1300.1,6.022,13.839327096939089,0.3491,4.0708,,
+1,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_ImageNet32,"08/06/2023, 04:13:46",105707.061,1215.024,5.796,13.93944501876831,0.3272,4.1109,114.382700544,12.61156
+2,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_ImageNet32,"08/08/2023, 15:48:57",114367.88,1216.68,5.823,13.887076377868652,0.3548,3.8946,114.382700544,12.61156

@@ -1,8 +1,8 @@
 cfg:
-  filters: [128, 160, 192]
+  filters: [128, 160, 192, 128]
   divns: 4
-  overall_dropout: 0.4
-  dropout_rate: [0.2, 0.2, 0.2]
+  overall_dropout: 0.1
+  dropout_rate: [0.1, 0.2, 0.2]
   init_lr: 0.0005
   batch_size: 256
   test_size: 0.1
@@ -13,3 +13,6 @@ input_shape: [3, 32, 32]
 mean: [0.485, 0.456, 0.406]
 std: [0.229, 0.224, 0.225]
 log_pth: "logs/svhn"
+
+#  overall_dropout: 0.4
+#  dropout_rate: [0.2, 0.2, 0.2]

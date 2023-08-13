@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(TestUniFormer_on_huge_datasets)_uniformer_on_TissueMnist,"07/27/2023, 05:22:09",1000.827,28.595,1.515,2.7138891220092773,0.6975,1.1027

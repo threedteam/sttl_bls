@@ -4,8 +4,7 @@ import yaml
 import requests
 import datetime
 from ignite_enterance import run as go
-
-# A logger for this file
+# A logger for this files
 log = logging.getLogger(__name__)
 
 
@@ -35,6 +34,7 @@ def gen_tasks(dataset, model, exp_explain):
         ystr = open(f'configs/{dataset}.yaml', 'r').read()
         cfgdict = yaml.load(ystr, Loader=yaml.FullLoader)
         res = go(cfgdict, options, log)
+
         json_data = {
             'exp_name': f'exp({exp_explain})_{model}_on_{dataset}',
             'exp_time': datetime.datetime.now().strftime("%m/%d/%Y, %H:%M:%S"),
@@ -57,27 +57,26 @@ def gen_tasks(dataset, model, exp_explain):
 
 
 if __name__ == '__main__':
-    if sys.argv[1] not in ['cifar10', 'cifar100', 'svhn', 'mnist', 'catordog']:
-        raise NameError('Not Supported Dataset.')
+    if sys.argv[1] not in ['cifar10', 'cifar100', 'svhn', 'mnist', 'catordog', 'ImageNet32', 'TissueMnist']:
+        raise NameError(f'Not Supported Dataset: \'{sys.argv[1]}\'')
     if sys.argv[2] not in [
-        'gdbls_conv1block3',
-        'gdbls_conv2block3',
-        'gdbls_conv3block3',
-        'gdbls_conv4block3',
-        'gdbls_conv5block3',
-        'gdbls_conv6block3',
-
-        'gdbls_conv3block1',
-        'gdbls_conv3block2',
-        'gdbls_conv3block4',
-
-        'gdbls_conv3block3_noEB',
-        'resnet_fpn',
-        'gdbls_conv3block3_dogcatversion'
+        'gdbls_c3b3',
+        'gdbls_c2b3',
+        'gdbls_c1b3',
+        'gdbls_c4b3',
+        'gdbls_c5b3',
+        'gdbls_c6b3',
+        'gdbls_c3b2',
+        'gdbls_c3b1',
+        'gdbls_c3b4',
+        'gdbls_c1b2',
+        'gdbls_c1b1',
+        'gdbls_c2b2',
+        'gdbls_c2b1'
     ]:
-        raise NameError('Not Provided Model.')
+        raise NameError(f'Not Provided Model: {sys.argv[2]}')
     if sys.argv[3] is None:
-        raise AssertionError('Should explain the experiment target')
+        raise AssertionError('Must explain the experiment target')
 
     gen_tasks(sys.argv[1], sys.argv[2], sys.argv[3])
     globals()[f'task_for_{sys.argv[1]}_using_{sys.argv[2]}']()

@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc3b2_on_huge_datasets)_c3b2_former_nofc_on_TissueMnist,"08/08/2023, 21:00:07",4625.238,88.947,3.876,7.48276686668396,0.7204,1.0684,238.739259392,3.041352

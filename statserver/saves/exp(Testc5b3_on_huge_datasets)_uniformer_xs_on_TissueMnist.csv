@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_huge_datasets)_uniformer_xs_on_TissueMnist,"08/03/2023, 03:08:31",1124.538,34.077,1.744,3.1735687255859375,0.7002,1.0969,15.596650752,15.485512

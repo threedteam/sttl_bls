@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(Testcb3_on_huge_datasets_with_STTL)_cloformer_on_ImageNet32,"07/26/2023, 04:33:21",40003.024,689.707,4.13,9.431406021118164,0.1428,5.321

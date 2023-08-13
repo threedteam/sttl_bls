@@ -1,0 +1,8 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_ImageNet32)_c5b3_former_nofc_on_TissueMnist,"06/27/2023, 22:00:49",8702.623,280.73,11.743,24.131072282791138,0.7261,1.0599,,
+1,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_TissueMnist,"08/03/2023, 15:48:10",142.065,142.065,5.824,11.370378971099854,0.5576,1.4395,455.75241728,8.609992
+2,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_TissueMnist,"08/03/2023, 15:54:08",142.011,142.011,5.834,11.404239892959597,0.5456,1.4706,455.75241728,8.609992
+3,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_TissueMnist,"08/06/2023, 09:14:01",142.344,142.344,5.887,11.452184677124023,0.5532,1.5014,455.735640064,8.544456
+4,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_TissueMnist,"08/06/2023, 11:18:03",5508.756,141.25,5.843,11.456552028656006,0.7165,1.0809,455.735640064,8.544456
+5,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_TissueMnist,"08/08/2023, 18:09:35",6359.296,141.318,5.841,11.406360387802124,0.73,1.0558,455.735640064,8.544456
+6,exp(Testc5b3_on_huge_datasets)_c5b3_former_nofc_on_TissueMnist,"08/09/2023, 00:25:10",6367.304,141.496,5.844,11.459283590316772,0.7317,1.0543,455.735640064,8.544456

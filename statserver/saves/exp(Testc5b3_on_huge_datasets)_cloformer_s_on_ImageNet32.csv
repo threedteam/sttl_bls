@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_huge_datasets)_cloformer_s_on_ImageNet32,"08/01/2023, 23:12:22",31167.138,708.344,4.281,10.097867965698242,0.1877,5.1229,2.821249024,12.334056

@@ -1,0 +1,3 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_huge_datasets)_wrn_on_TissueMnist,"07/30/2023, 15:01:13",3260.034,296.367,13.29,26.377022743225098,0.4458,2.2038,1526.153347072,36.48772
+1,exp(Testc5b3_on_huge_datasets)_wrn_on_TissueMnist,"08/03/2023, 02:13:44",3257.278,296.116,13.297,26.369967222213745,0.4461,2.1502,1526.153347072,36.48772

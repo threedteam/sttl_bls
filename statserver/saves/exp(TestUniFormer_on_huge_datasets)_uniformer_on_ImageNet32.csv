@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(TestUniFormer_on_huge_datasets)_uniformer_on_ImageNet32,"07/27/2023, 04:57:04",29289.282,861.449,4.757,11.076379776000977,0.1074,6.0655

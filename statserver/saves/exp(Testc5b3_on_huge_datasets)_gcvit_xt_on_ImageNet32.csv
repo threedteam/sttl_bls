@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_huge_datasets)_gcvit_xt_on_ImageNet32,"08/02/2023, 17:27:14",20842.135,771.931,4.697,10.85792589187622,0.0926,6.3695,3.55213312,19.905896

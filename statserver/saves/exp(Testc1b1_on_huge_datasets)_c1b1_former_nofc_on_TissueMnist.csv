@@ -1,0 +1,4 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc1b1_on_huge_datasets)_c1b1_former_nofc_on_TissueMnist,"08/09/2023, 09:25:33",35.834,35.834,1.882,3.4662253856658936,0.4702,1.5636,40.90494976,0.947848
+1,exp(Testc1b1_on_huge_datasets)_c1b1_former_nofc_on_TissueMnist,"08/09/2023, 10:09:31",1727.015,35.245,1.869,3.487835645675659,0.6212,1.2673,40.90494976,0.947848
+2,exp(Testc1b1_on_huge_datasets)_c1b1_former_nofc_on_TissueMnist,"08/09/2023, 13:50:56",1409.489,35.237,1.873,3.4831833839416504,0.6181,1.2738,40.90494976,0.947848

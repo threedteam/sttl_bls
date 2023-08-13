@@ -621,3 +621,12 @@ exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,acc,loss,last_test_
 619,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 21:19:46",438.733,19.942,2.257,0.8662,0.4618,2.2602362632751465
 620,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 21:38:47",739.211,19.979,2.262,0.9103,0.3666,2.2578725814819336
 621,exp(TestCatOrDogv2)_gdbls_conv3block3_dogcatversion_on_catordog,"08/21/2022, 21:56:16",678.42,19.954,2.258,0.9008,0.3916,2.261469841003418
+622,exp(Testc5b3_on_ImageNet32)_c5b3_former_nofc_on_TissueMnist,"06/27/2023, 22:00:49",8702.623,280.73,11.743,0.7261,1.0599,24.131072282791138
+623,exp(Testc5b3_on_ImageNet32)_c5b3_former_nofc_on_ImageNet32,"06/29/2023, 06:15:43",98807.597,1300.1,6.022,0.3491,4.0708,13.839327096939089
+624,exp(TestOtherModels_on_huge_datasets)_gcvit_xxt_on_ImageNet32,"07/22/2023, 06:45:46",19720.681,580.02,3.577,0.1132,6.0939,8.683056592941284
+625,exp(TestOtherModels_on_huge_datasets)_van_on_ImageNet32,"07/22/2023, 11:39:37",12892.455,390.68,2.405,0.1126,5.8998,5.381309747695923
+626,exp(TestOtherModels_on_huge_datasets)_gcvit_xxt_on_TissueMnist,"07/22/2023, 12:00:50",759.328,19.982,1.451,0.6902,1.1263,2.148508310317993
+627,exp(TestOtherModels_on_huge_datasets)_van_on_TissueMnist,"07/22/2023, 12:18:13",664.952,22.929,1.446,0.6834,1.1425,1.8528075218200684
+628,exp(Testcb3_on_huge_datasets_with_STTL)_cloformer_on_ImageNet32,"07/26/2023, 04:33:21",40003.024,689.707,4.13,0.1428,5.321,9.431406021118164
+629,exp(TestUniFormer_on_huge_datasets)_uniformer_on_ImageNet32,"07/27/2023, 04:57:04",29289.282,861.449,4.757,0.1074,6.0655,11.076379776000977
+630,exp(TestUniFormer_on_huge_datasets)_uniformer_on_TissueMnist,"07/27/2023, 05:22:09",1000.827,28.595,1.515,0.6975,1.1027,2.7138891220092773

@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(TestOtherModels_on_huge_datasets)_gcvit_xxt_on_ImageNet32,"07/22/2023, 06:45:46",19720.681,580.02,3.577,8.683056592941284,0.1132,6.0939

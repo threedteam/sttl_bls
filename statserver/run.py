@@ -24,7 +24,7 @@ def save2csv(args, data_path):
 def update(args):
     print(args)
     exp_name = args['exp_name']
-    data_paths = [f'saves/{exp_name}.csv', 'saves/data.csv']
+    data_paths = [f'saves/{exp_name}.csv', 'saves/data_gen2.csv']
     for path in data_paths:
         save2csv(args, path)
 

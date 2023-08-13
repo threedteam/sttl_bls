@@ -1,7 +1,7 @@
 cfg:
-  filters: [128, 160, 192]
+  filters: [128, 160, 192, 128]
   divns: 1
-  overall_dropout: 0.3
+  overall_dropout: 0.1
   dropout_rate: [0.1, 0.1, 0.1]
   init_lr: 0.0005
   batch_size: 160
@@ -13,3 +13,7 @@ input_shape: [3, 32, 32]
 mean: [0.49139968, 0.48215827, 0.44653124]
 std: [0.24703233, 0.24348505, 0.26158768]
 log_pth: "logs/cifar10"
+#   dropout_rate: [0.15, 0.15, 0.15]
+#   filters: [128, 160, 192]
+#  overall_dropout: 0.3
+#  dropout_rate: [0.1, 0.1, 0.1]

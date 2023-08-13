@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_huge_datasets)_wrn_on_ImageNet32,"08/01/2023, 11:27:39",102332.199,2558.305,12.597,30.86502957344055,0.4251,3.6973,381.597843456,37.12388

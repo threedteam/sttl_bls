@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_huge_datasets)_cloformer_s_on_TissueMnist,"08/03/2023, 02:42:35",1280.86,32.021,1.501,2.5413434505462646,0.7138,1.0785,11.133476864,11.888072

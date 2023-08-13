@@ -1,0 +1,13 @@
+cfg:
+  filters: [160, 192, 256]
+  divns: 4
+  overall_dropout: 0.4
+  dropout_rate: [0.15,0.15,0.15]
+  init_lr: 0.0001
+  batch_size: 64
+  test_size: 0.2
+  epochs: 100
+dataset_name: "IMAGENET32"
+num_classes: 1000
+input_shape: [3, 32, 32]
+log_pth: "logs/imagenet32"

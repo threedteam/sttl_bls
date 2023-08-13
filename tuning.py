@@ -3,8 +3,6 @@ from nni.experiment import Experiment
 search_space = {
     # 'batch_size': {'_type': 'randint', '_value': [128, 192]},
     # 'init_lr': {'_type': 'uniform', '_value': [0.0001, 0.001]},
-    # 'divns': {'_type': 'randint', '_value': [1, 16]},
-    'ppvbias': {'_type': 'uniform', '_value': [-2, 2]},
 }
 
 experiment = Experiment('local')

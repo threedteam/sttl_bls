@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss
+0,exp(TestOtherModels_on_huge_datasets)_van_on_ImageNet32,"07/22/2023, 11:39:37",12892.455,390.68,2.405,5.381309747695923,0.1126,5.8998

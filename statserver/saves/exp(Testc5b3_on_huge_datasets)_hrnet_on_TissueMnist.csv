@@ -1,0 +1,2 @@
+exp_name,exp_time,train_time,train_time_epoch,val_time_epoch,last_test_time_consumption,acc,loss,FLOPS,param
+0,exp(Testc5b3_on_huge_datasets)_hrnet_on_TissueMnist,"07/30/2023, 13:46:33",1876.786,58.65,3.134,5.862269401550293,0.6736,1.1504,47.000092672,39.19892

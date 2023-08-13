@@ -1,0 +1,15 @@
+cfg:
+  filters: [160, 192, 256]
+  divns: 4
+  overall_dropout: 0.25
+  dropout_rate: [0.15,0.15,0.15]
+  init_lr: 0.0005
+  batch_size: 256
+  test_size: 0.2
+  epochs: 200
+dataset_name: "TISSUEMNIST"
+num_classes: 8
+input_shape: [1, 32, 32]
+mean: [0.1]
+std: [0.08]
+log_pth: "logs/tissuemnist"
